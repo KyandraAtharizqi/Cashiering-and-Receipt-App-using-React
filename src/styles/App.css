@@ -1,0 +1,94 @@
+/* App.css */
+
+/* General styles */
+body {
+  background-color: #f8f9fa; /* Light gray background */
+  font-family: 'Segoe UI', sans-serif;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: #ffffff; /* White background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+h1, h2 {
+  margin-bottom: 20px;
+  color: #007bff; /* Blue color for headings */
+}
+
+input[type="text"], input[type="number"], select {
+  width: calc(100% - 20px); /* Adjust width to account for padding */
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+  font-size: 16px; /* Increase font size for better readability */
+}
+
+button {
+  margin: 10px 0;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff; /* Blue button color */
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker shade of blue on hover */
+}
+
+/* Grocery Bag List */
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f8f9fa; /* Light gray background for list items */
+  margin-bottom: 5px;
+}
+
+.btn-danger {
+  margin-left: 10px;
+}
+
+/* Receipt styles */
+.receipt {
+  border: 1px solid #ced4da;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: #e9ecef;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.receipt h2 {
+  color: #007bff; /* Blue color for receipt title */
+}
+
+.receipt ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.receipt ul li {
+  margin-bottom: 10px;
+}
+
+.receipt p {
+  margin: 5px 0;
+}
+
+.receipt button {
+  margin-top: 20px;
+}
